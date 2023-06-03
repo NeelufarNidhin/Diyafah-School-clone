@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*****Inner Header*********/
+nav .navbar{
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+
+}
+
+ .navbar-custom {
+    background-color: rgb(255, 239, 239) ;
+    margin-right: 20px;
+   
+}
+
+
+.navbar-custom .container-fluid a{
+    color:#7A2533 ;
+    font-size: 15px;
+    text-decoration: none;
+   
+}
+
+
+
+.navbar-custom .container-fluid ul li a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+.navbar-custom .container-fluid ul li button{
+    background-color:#7A2533 ;
+    color:white;
+    font-size: 15px;
+}
+/************Navigation*******/
+.nav
+.navbar .container a img{
+    height: 30%;
+    width: 30%;
+}
+#navbarNav  ul li a {
+    color:#7A2533 !important ;
+    font-size: 15px;
+}
+
+/*********About*********/
+
+#principal-message  .section-title .text-center{
+    color:#7A2533
+}
+
+/************Banner******/
+.banner .container-fluid {
+    height: 600px;
+    width: 100%;
+    background-color: #7A2533;
+
+}
+.banner .container-fluid h3{
+   font-family:  Merriweather, serif;
+    color: white;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+/***********Growth*********/
+.container .row .col12 {
+    margin-bottom: 20px !important;
+}
+
+.card-img-overlay{
+    margin:10px 10px;
+}
+#growth .sub-header{
+    color: #7A2533;
+}
+
+
+/*********Contact**********/
+#contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contact .container{
+    color: #7A2533;
+}
+
+#contact .container button{
+    background-color: #7A2533;
+}
+
+/**********foter**********/
+
+.bg-custom{
+    background-color:#7A2533  ;
+}
